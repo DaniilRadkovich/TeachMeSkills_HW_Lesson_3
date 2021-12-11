@@ -25,11 +25,11 @@ public class Task3 {
         for (int i = 0; i < myArray2.length; i++) {
             averageFor2 = averageFor2 + myArray2[i];
         }
-        if (averageFor1/5 == averageFor2/5) {
+        if (averageFor1 / myArray1.length == averageFor2 / myArray2.length) {
             System.out.println("Average values are equal!");
         } else {
-            System.out.println(averageFor1 / 5);
-            System.out.println(averageFor2 / 5);
+            System.out.println("Average value for the first array: " + averageFor1 / myArray1.length);
+            System.out.println("Average value for the second array: " + averageFor2 / myArray2.length);
         }
     }
 }
